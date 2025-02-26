@@ -509,6 +509,7 @@ header {
     flex-direction: row;
     width: 78%;
     height: 500px;
+    gap: 100px;
 }
 
 .como-funciona-desenho {
@@ -518,7 +519,7 @@ header {
 }
 
 .como-funciona-desenho img {
-    width: 80%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -529,7 +530,7 @@ header {
     align-items: center;
     flex-direction: column;
     height: 450px;
-    width: 700px;
+    width: 550px;
 }
 
 .como-funciona-titulo {
@@ -601,7 +602,7 @@ header {
 
 .material-objects-container {
     background-color: #ffffff;
-    width: 1150px !important;
+    width: 1150px;
     height: 400px;
     border-radius: 15px;
     display: flex;
@@ -610,7 +611,7 @@ header {
     align-items: center;
     position: relative;
     z-index: 1;
-    gap: 85px !important;
+    gap: 85px;
     margin-bottom: 43px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -709,7 +710,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    width: 77% !important;
+    width: 77%;
     height: auto;
     gap: 100px;
     margin-bottom: 36px;
@@ -1165,7 +1166,7 @@ footer {
     flex-direction: row;    
     align-items: center;
     border-radius: 15px;
-    gap: 120px;
+    gap: 40px;
 }
 
 .contato-texto-container {
@@ -1225,34 +1226,35 @@ footer {
     margin-left: 30px;
 }
 
-@media (min-width: 1200px) and (max-width: 1599px) {
+@media (max-width: 1600px) {
     
-    .logo-container {
-        width: 150px;
-        height: 38px;
+    .motivos-card-container {
+        gap: 15px;
     }
-    
+
+}
+
+@media (max-width: 1366px) {
+
     .header-links-container {
-        gap: 38px;
+        gap: 35px;
     }
 
     .motivo-card {
-        width: 300px;
+        width: 315px;
     }
 
     .depoimento-texto-container {
-        height: 330px;
-        margin-top: -130px;
+        height: 350px;
     }
 
     .cursos-cards-container {
-        width: 77%;
-        gap: 110px;
+        width: auto;
     }
 
     .curso-regular-container {
-        width: 325.7px;
-        height: 555px;
+        width: 310px;
+        height: 559.4px;
     }
 
     .curso-hsk-container {
@@ -1263,60 +1265,28 @@ footer {
         width: 310px;
     }
 
-    .cursos-container-p {
-        width: 77%;
-    }
-
     .material-objects-container {
-        gap: 50px;
-        width: 1030px;
-    }
-
-    .como-funciona-conteudo {
-        height: 450px;
-    }
-
-    .como-funciona-desenho {
-        width: 700px;
-    }
-
-    .como-funciona-container-p p {
-        margin-top: 0;
-    }
-
-    .preços-container-p p {
-        margin-top: 0;
+        width: 1035px;
+        gap: 55px;
     }
 
     .preços-cards-container {
         width: 75%;
     }
 
-    .depoimentos-container-p {
-        margin-left: 68px;
-        margin-right: 68px;
-    }
-
-    .depoimentos-alunos-container {
-        margin-left: 65px;
-        margin-right: 65px;
-    }
-
-    .desenho-container {
-        margin-left: 20px;
-    }
-
-    .whats-numero {
-        
+    .contato-texto-grande p {
+        font-size: 35px;
     }
 
     .whats-numero p {
-        font-size: 40px;
-        margin-top: 8px
+        font-size: 45px;
     }
-   
 
-  }
+    #contato-container {
+        gap: 60px;
+    }
+
+}
 
 @media (max-width: 480px) {
     body {
@@ -1443,7 +1413,7 @@ footer {
     .cursos-cards-container {
         flex-direction: column;
         width: 80%;
-        gap: 36px;
+        gap: 150px;
     }
 
     .curso-regular-container {
