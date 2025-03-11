@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 FONTE PARA SITE "PDM": Aller Display
 
 Host site: https://www.cdnfonts.com/aller.font
 
 
 
+=======
+FONTE PARA SITE "PDM": Aller Display
+
+Host site: https://www.cdnfonts.com/aller.font
+
+
+
+>>>>>>> master
